@@ -5,8 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Attenuator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="700" Width="600" Background="White">
+    <Grid Background="White">
+        <TextBox
+            Name="input_z"
+            Margin="20,20,400,610" 
+            Background="white" 
+            BorderBrush="black" 
+            BorderThickness="3"
+            FontSize="20">
+        </TextBox>
+        <TextBlock 
+            Margin="350, 20,20 610"
+            Text="Введите значение Z"
+            FontSize="20">
+        </TextBlock>
 
+        <TextBox 
+            Name="input_r"
+            Margin="20,80,400,550" 
+            Background="white" 
+            BorderBrush="black" 
+            BorderThickness="3"
+            FontSize="20">
+        </TextBox>
+        <TextBlock 
+            Margin="350, 80,20 550"
+            Text="Введите значение R"
+            FontSize="20">
+        </TextBlock>
+
+        <TextBox 
+            Name="input_r1"
+            Margin="20,140,400,490" 
+            Background="white" 
+            BorderBrush="black" 
+            BorderThickness="3"
+            FontSize="20">
+        </TextBox>
+        <TextBlock 
+            Margin="350,140,20 490"
+            Text="Введите значение R1"
+            FontSize="20">
+        </TextBlock>
+        <Button
+            Content="Рассчитать"
+            Margin="20,200,20,430"
+            FontSize="20"
+            Background="Black" 
+            Foreground="White"
+            Click="Test">
+        </Button>
+        <TextBlock
+            Name="output"
+            Margin="20,290,20,20"
+            TextWrapping="Wrap"
+            FontSize="20">            
+        </TextBlock>
     </Grid>
 </Window>
