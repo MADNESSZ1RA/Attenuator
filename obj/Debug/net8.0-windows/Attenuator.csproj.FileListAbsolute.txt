@@ -19,3 +19,24 @@ C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\
 C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\Attenuator.pdb
 C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\Attenuator.genruntimeconfig.cache
 C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\ref\Attenuator.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\Attenuator.exe
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\Attenuator.deps.json
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\Attenuator.runtimeconfig.json
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\Attenuator.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\Attenuator.pdb
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\App.g.cs
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator_MarkupCompile.cache
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator_MarkupCompile.lref
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\MainWindow.baml
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.g.resources
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.GeneratedMSBuildEditorConfig.editorconfig
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.AssemblyInfoInputs.cache
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.AssemblyInfo.cs
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.CoreCompileInputs.cache
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.sourcelink.json
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.dll
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\refint\Attenuator.dll
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.pdb
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.genruntimeconfig.cache
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\ref\Attenuator.dll
