@@ -40,3 +40,13 @@ F:\шарп\Attenuator\obj\Debug\net8.0-windows\refint\Attenuator.dll
 F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.pdb
 F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.genruntimeconfig.cache
 F:\шарп\Attenuator\obj\Debug\net8.0-windows\ref\Attenuator.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\RBush.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.AssemblyReference.cache
+C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.Up2Date

@@ -54,7 +54,7 @@
             FontSize="20"
             Background="Black" 
             Foreground="White"
-            Click="Test">
+            Click="Main">
         </Button>
         <TextBlock
             Name="output"
