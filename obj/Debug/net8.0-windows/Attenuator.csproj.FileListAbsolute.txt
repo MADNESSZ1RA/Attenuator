@@ -50,3 +50,13 @@ C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\
 C:\личное\учеба 4 курс\Polus\Attenuator\bin\Debug\net8.0-windows\System.IO.Packaging.dll
 C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.AssemblyReference.cache
 C:\личное\учеба 4 курс\Polus\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.Up2Date
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\ClosedXML.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\RBush.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+F:\шарп\Attenuator\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.AssemblyReference.cache
+F:\шарп\Attenuator\obj\Debug\net8.0-windows\Attenuator.csproj.Up2Date

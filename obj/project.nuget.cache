@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gzo4EDKRZE4=",
+  "dgSpecHash": "2EuWBql29rM=",
   "success": true,
-  "projectFilePath": "C:\\личное\\учеба 4 курс\\Polus\\Attenuator\\Attenuator.csproj",
+  "projectFilePath": "F:\\шарп\\Attenuator\\Attenuator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\apost\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
     "C:\\Users\\apost\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",

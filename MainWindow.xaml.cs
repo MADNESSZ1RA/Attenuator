@@ -10,28 +10,16 @@ namespace Attenuator
         {
             InitializeComponent();
         }
-        public void MainOld(object sender, RoutedEventArgs e)
+        public void Calculate(object sender, RoutedEventArgs e)
         {
             try
             {
                 double Z = double.Parse(input_z.Text);    // Импеданс
                 double R = double.Parse(input_r.Text);    // Сопротивление R
-                double R1 = double.Parse(input_r1.Text);  // Сопротивление R1 (не используется в расчете L)
+                //double R1 = double.Parse(input_r1.Text);  // Сопротивление R1 (не используется в расчете L)
 
-                if (Z <= 0 || R <= 0)
-                {
-                    output.Text = "Ошибка: Z и R должны быть положительными числами.";
-                    return;
-                }
-
-                double A = R / Z;
-                if (A <= 0 || A >= 2)
-                {
-                    output.Text = "Ошибка: Некорректное значение коэффициента A.";
-                    return;
-                }
-
-                double L = -20 * Math.Log10((A - 1) / (A + 1));
+                double A = (R-Z)/(R+Z);
+                double L = -20 * Math.Log10(A);
 
                 output.Text = $"Вычисленное значение L: {L:F3} дБ";
             }
@@ -40,7 +28,7 @@ namespace Attenuator
                 output.Text = $"Ошибка: {ex.Message}";
             }
         }
-        public void Main(object sender, RoutedEventArgs e)
+        public void SaveToExcel(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -59,25 +47,27 @@ namespace Attenuator
                         {
                             try
                             {
-                                if (Z <= 0 || R <= 0)
+                                if (R <= Z)
                                 {
                                     worksheet.Cell(row, 1).Value = Z;
                                     worksheet.Cell(row, 2).Value = R;
-                                    worksheet.Cell(row, 3).Value = "Ошибка: Z и R должны быть положительными числами.";
+                                    worksheet.Cell(row, 3).Value = "Ошибка: R должно быть больше Z.";
                                     row++;
                                     continue;
                                 }
 
-                                double A = (double)R / Z;
-                                if (A <= 0 || A >= 2)
+                                double A = (double)(R - Z) / (R + Z);
+
+                                if (A <= 0 || A > 1)
                                 {
                                     worksheet.Cell(row, 1).Value = Z;
                                     worksheet.Cell(row, 2).Value = R;
-                                    worksheet.Cell(row, 3).Value = "Ошибка: Некорректное значение коэффициента A.";
+                                    worksheet.Cell(row, 3).Value = "Ошибка: Некорректное значение A.";
                                     row++;
                                     continue;
                                 }
-                                double L = -20 * Math.Log10((A - 1) / (A + 1));
+
+                                double L = -20 * Math.Log10(A);
 
                                 worksheet.Cell(row, 1).Value = Z;
                                 worksheet.Cell(row, 2).Value = R;
@@ -96,7 +86,7 @@ namespace Attenuator
                     string filePath = "Расчеты.xlsx";
                     workbook.SaveAs(filePath);
 
-                    output.Text = $"Расчеты успешно сохранены в файл: {filePath}";
+                    output.Text = $"Файл успешно сохранен: {filePath}";
                 }
             }
             catch (Exception ex)
@@ -104,5 +94,6 @@ namespace Attenuator
                 output.Text = $"Ошибка: {ex.Message}";
             }
         }
+
     }
 }

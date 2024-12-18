@@ -50,11 +50,19 @@
         </TextBlock>
         <Button
             Content="Рассчитать"
-            Margin="20,200,20,430"
+            Margin="20,200,320,430"
             FontSize="20"
             Background="Black" 
             Foreground="White"
-            Click="Main">
+            Click="Calculate">
+        </Button>
+        <Button
+            Content="Сохранить в Excel"
+            Margin="320,200,20,430"
+            FontSize="20"
+            Background="Black" 
+            Foreground="White"
+            Click="SaveToExcel">
         </Button>
         <TextBlock
             Name="output"
